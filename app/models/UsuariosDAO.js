@@ -31,7 +31,6 @@ UsuariosDAO.prototype.autenticar = function (usuario, req, res) {
       mongoclient.close();
     });
   });
-
 }
 
 module.exports = function () {
